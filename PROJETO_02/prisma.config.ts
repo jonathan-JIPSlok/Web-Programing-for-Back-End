@@ -9,6 +9,6 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: process.env.DATABASE_URL, //Pega do URL
+    url: process.env["DATABASE_URL"],
   },
 });
